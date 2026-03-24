@@ -45,7 +45,7 @@ cv:
         summary: Supported the platform and data pipelines on a petabyte scale on-premise cluster for the South African subsidiary of a large multi-national telecommunications provider.
         highlights:
           - Deployed and maintained 16 Apache Airflow instances across multiple teams, environments, and failover setups on OpenShift (Kubernetes) using Helm.
-          - Built software to monitor and facilitate the scheduled removal of hundreds of terabytes of data across the development and production cluster.
+          - Built software to monitor and facilitate the scheduled removal and archival to AWS S3 from apache hadoop of hundreds of terabytes of data across the development and production cluster.
           - Developed and maintained tools that automated daily platform health checks and reduced repetitive manual work for engineers.
           - Participated in after-hours maintenance, patching, and operational support rotations.
 
