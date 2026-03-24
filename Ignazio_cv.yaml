@@ -19,38 +19,37 @@ cv:
         position: Data Scientist - Prepaid Electricity Analytics
         date: 10/2025 - 03/2026
         location: Stellenbosch
-        summary: Worked on data science and analytics for a prepaid electricity vendor, focusing on transaction data, forecasting, and reporting pipelines.
+        summary: Worked on data and analytics workflows for a prepaid electricity vendor, with a focus on reporting, forecasting, and improving the delivery of production use cases.
         highlights:
-          - Built data pipelines and analytical workflows for prepaid electricity sales and transaction data.
-          - Developed forecasting and monitoring solutions to support business reporting and decision-making.
-          - Worked with large operational datasets using Python, SQL, and cloud-based tooling.
-          - Produced reporting-ready datasets and automated data workflows for downstream analytics use cases.
-          - Contributed across the full lifecycle from data preparation and validation to modelling and deployment support.
+          - Contributed across the full lifecycle from data preparation and validation to modelling, reporting, and deployment support in a Google Cloud environment.
+          - Improved performance of historical backfills for large SQL pipelines built on daily ingestion tables.
+          - Built analytics workflows and reporting datasets for prepaid electricity transaction and sales data.
+          - Developed Looker Studio dashboards and scheduled service-account notebooks in Vertex AI to automate daily business reporting.
+          - Modernised the analytics delivery stack between prepared and reporting layers, including forecasting approaches, notebook scheduling, DAG configuration, alerting, and developer automation.
 
       - company: Spatialedge
-        position: Geo-informatics Data Scientist - Traffic Congestion Modelling
+        position: Geo-informatics Data Scientist
         date: 08/2025 - 09/2025
         location: Stellenbosch
         summary: Worked on geospatial modelling of traffic congestion trends using Python-based GIS and data science tooling.
         highlights:
           - Modelled traffic congestion trends using geospatial and temporal data.
           - Performed spatial analysis and feature engineering using GeoPandas and related Python libraries.
-          - Built data preparation and analysis workflows for transport and congestion insights.
-          - Combined mapping, analytics, and modelling techniques to support trend analysis and decision-making.
+          - Designed batched processing data preparation and analytics workflows that allowed large spatial data workflows to be processed on a virtual machine with limited memory.
+          - Wrote scripts to standardise and simplify environment setup for the project.
 
       - company: Spatialedge
-        position: Data Engineer / DevOps
+        position: Data / DevOps Engineer 
         date: 09/2022 - 07/2025
         location: Stellenbosch
-        summary: Operations and data engineer for an on-premise big data platform team supporting a petabyte-scale analytics platform for Vodacom, the South African subsidiary of Vodafone.
+        summary: Supported the platform and data pipelines on a petabyte scale on-premise cluster for the South African subsidiary of a large multi-national telecommunications provider.
         highlights:
-          - Deployed, maintained, and upgraded software across a large-scale analytics environment.
-          - Supported infrastructure used for data ingestion, analytics, and model training workloads.
-          - Managed access control, security remediation, compliance-related tasks, and platform reliability.
-          - Contributed to high-availability planning, disaster recovery processes, and data lifecycle management.
-          - Participated in support and on-call rotations, including after-hours patching and operational support.
+          - Deployed and maintained 16 Apache Airflow instances across multiple teams, environments, and failover setups on OpenShift (Kubernetes) using Helm.
+          - Built software to monitor and facilitate the scheduled removal of hundreds of terabytes of data across the development and production cluster.
+          - Developed and maintained tools that automated daily platform health checks and reduced repetitive manual work for engineers.
+          - Participated in after-hours maintenance, patching, and operational support rotations.
 
-    Earlier Experience:
+    earlier_experience:
       - company: ASAP Staff
         position: Waiter / Bartender / Runner
         date: 01/2016 - 12/2016
