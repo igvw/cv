@@ -1,0 +1,129 @@
+cv:
+  name: Ignazio van Wyk
+  headline: Data Engineer | Data Scientist
+  location: Fitjar, Norway
+  email: jobb@ignaz.io
+  phone: "+27743558899"
+  website: https://ignaz.io
+  social_networks:
+    - network: GitHub
+      username: igvw
+    - network: LinkedIn
+      username: ignazio-ferreira # replace if needed
+
+  sections:
+    profile:
+      - Proactive problem solver with broad experience across the data and machine learning stack. Current experience spans data engineering, DevOps, geospatial analytics, and applied data science, with a strong interest in machine learning and analytics.
+
+    experience:
+      - company: Spatialedge
+        position: Data Scientist - Prepaid Electricity Analytics
+        date: 10/2025 - 03/2026
+        location: Stellenbosch
+        summary: Worked on data science and analytics for a prepaid electricity vendor, focusing on transaction data, forecasting, and reporting pipelines.
+        highlights:
+          - Built data pipelines and analytical workflows for prepaid electricity sales and transaction data.
+          - Developed forecasting and monitoring solutions to support business reporting and decision-making.
+          - Worked with large operational datasets using Python, SQL, and cloud-based tooling.
+          - Produced reporting-ready datasets and automated data workflows for downstream analytics use cases.
+          - Contributed across the full lifecycle from data preparation and validation to modelling and deployment support.
+
+      - company: Spatialedge
+        position: Geo-informatics Data Scientist - Traffic Congestion Modelling
+        date: 08/2025 - 09/2025
+        location: Stellenbosch
+        summary: Worked on geospatial modelling of traffic congestion trends using Python-based GIS and data science tooling.
+        highlights:
+          - Modelled traffic congestion trends using geospatial and temporal data.
+          - Performed spatial analysis and feature engineering using GeoPandas and related Python libraries.
+          - Built data preparation and analysis workflows for transport and congestion insights.
+          - Combined mapping, analytics, and modelling techniques to support trend analysis and decision-making.
+
+      - company: Spatialedge
+        position: Data Engineer / DevOps
+        date: 09/2022 - 07/2025
+        location: Stellenbosch
+        summary: Operations and data engineer for an on-premise big data platform team supporting a petabyte-scale analytics platform for Vodacom, the South African subsidiary of Vodafone.
+        highlights:
+          - Deployed, maintained, and upgraded software across a large-scale analytics environment.
+          - Supported infrastructure used for data ingestion, analytics, and model training workloads.
+          - Managed access control, security remediation, compliance-related tasks, and platform reliability.
+          - Contributed to high-availability planning, disaster recovery processes, and data lifecycle management.
+          - Participated in support and on-call rotations, including after-hours patching and operational support.
+
+    Earlier Experience:
+      - company: ASAP Staff
+        position: Waiter / Bartender / Runner
+        date: 01/2016 - 12/2016
+        location: Stellenbosch
+        highlights:
+          - Worked at weddings, concerts, and sporting events across the Cape Town area.
+          - Assisted with event logistics, coordination, and operations.
+
+      - company: Stellenbosch University
+        position: Student Tutor
+        date: 02/2015 - 06/2015
+        location: Stellenbosch
+        highlights:
+          - Tutored first-year students in weekly sessions.
+          - Assisted with tutorials, projects, and assessments.
+
+      - company: Vastech
+        position: Software Engineering Intern
+        date: 12/2014 - 01/2015
+        location: Stellenbosch
+        highlights:
+          - Developed a backward-compatibility verification tool for Google's Protocol Buffers using Go.
+
+    education:
+      - institution: Stellenbosch University
+        area: Computer Science
+        degree: BSc Honours
+        date: 2019
+        summary: Advanced study in machine learning, statistical pattern recognition, computational intelligence, and functional programming.
+        highlights:
+          - "Thesis: Shape Interpolation via Wasserstein Barycentric Means"
+
+      - institution: Stellenbosch University
+        area: Computer Science
+        degree: BSc
+        date: 2014 - 2018
+        highlights:
+          - Coursework included pure mathematics, data structures and algorithms, mathematical statistics, physics, and computer vision.
+
+      - institution: Stellenbosch University
+        area: Computer Science
+        degree: MSc (incomplete)
+        date: 2020 - 2022
+        summary: Research focus on neural network ensembles and concept drift. Built an efficient research codebase in Scala and Python and conducted an extensive literature review.
+        highlights:
+          - "Thesis topic: Neural Network Ensembles and Concept Drift"
+
+    skills:
+      - label: Languages
+        details: Python, SQL, Bash, Go, Scala, Java
+      - label: Data / ML
+        details: Pandas, GeoPandas, scikit-learn, forecasting, geospatial analysis
+      - label: Data Engineering
+        details: Apache Spark, Apache Airflow, BigQuery, ETL/ELT, S3, data pipelines
+      - label: Platform / DevOps
+        details: Linux, Docker, Kubernetes, OpenShift, Helm, Git, Grafana
+
+    interests:
+      - bullet: Running
+      - bullet: Mountain biking
+      - bullet: Home server projects
+      - bullet: Gaming
+      - bullet: Beer brewing
+      - bullet: Guitar
+
+    portfolio:
+      - name: ignaz.io/data
+        summary: Portfolio of data projects and visualisations.
+
+    additional_information:
+      - bullet: Last name was legally changed from Ferreira to Van Wyk in 2023.
+      - bullet: References available on request.
+
+design:
+  theme: engineeringclassic
