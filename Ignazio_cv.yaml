@@ -1,6 +1,6 @@
 cv:
   name: Ignazio van Wyk
-  headline: Data Engineer | Data Scientist
+  headline: Data Platform Engineer
   location: Fitjar, Norway
   email: jobb@ignaz.io
   phone: "+27743558899"
@@ -13,8 +13,7 @@ cv:
 
   sections:
     profile:
-      - Proactive problem solver with broad experience across the data and machine learning stack. Current experience spans data engineering, DevOps, geospatial analytics, and applied data science, with a strong interest in machine learning and analytics.
-
+      - Data professional with experience in data engineering, platform operations, geospatial modelling, and applied analytics.
     experience:
       - company: Spatialedge
         position: Data Scientist - Prepaid Electricity Analytics
