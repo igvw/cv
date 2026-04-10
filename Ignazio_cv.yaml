@@ -13,7 +13,7 @@ cv:
 
   sections:
     profile:
-      - Data professional with experience in data engineering, platform operations, geospatial modelling, and applied analytics.
+      - Data professional with experience in data engineering, platform operations, applied analytics, and geospatial modelling.
     experience:
       - company: Spatialedge
         position: Data Scientist - Prepaid Electricity Analytics
@@ -92,7 +92,7 @@ cv:
 
       - institution: Stellenbosch University
         area: Computer Science
-        degree: MSc (incomplete)
+        degree: MSc (discontinued)
         date: 2020 - 2022
         summary: Research focus on neural network ensembles and concept drift. Built an efficient research codebase in Scala and Python and conducted an extensive literature review.
         highlights:
@@ -108,13 +108,20 @@ cv:
       - label: Platform / DevOps
         details: Linux, Docker, Kubernetes, OpenShift, Helm, Git, Grafana
 
+    languages:
+      - label: English
+        details: Native
+      - label: Afrikaans
+        details: Native
+      - label: Norwegian
+        details: Elementary
+
     interests:
       - bullet: Running
       - bullet: Mountain biking
-      - bullet: Home server projects
-      - bullet: Gaming
+      - bullet: Home server projects (VPS, Raspberry Pi, Headless Debian)
       - bullet: Beer brewing
-      - bullet: Guitar
+      - bullet: Classical guitar
 
     portfolio:
       - name: ignaz.io/data
