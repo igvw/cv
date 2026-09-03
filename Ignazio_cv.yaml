@@ -1,5 +1,5 @@
 cv:
-  name: Ignazio van Wyk
+  name: Michael Ignazio van Wyk
   headline: Data Platform Engineer
   location: Fitjar, Norway
   email: jobb@ignaz.io
@@ -75,6 +75,12 @@ cv:
           - Developed a backward-compatibility verification tool for Google's Protocol Buffers using Go.
 
     education:
+      - institution: Voksenopplæring, Stord
+        area: Norwegian
+        degree: B1 language course
+        date: 2026 - Present
+        summary: Currently taking a Norwegian language course at B1 level.
+
       - institution: Stellenbosch University
         area: Computer Science
         degree: BSc Honours
