@@ -1,3 +1,5 @@
 venv/
 rendercv_output/
+output/
 .DS_STORE
+tmp/

@@ -1,0 +1,111 @@
+cv:
+  name: Michael Ignazio van Wyk
+  headline: Dataplattformingeniør
+  location: Fitjar, Noreg
+  email: jobb@ignaz.io
+  phone: '+4745572881'
+  website: https://ignaz.io
+  custom_connections:
+    - placeholder: 'GitHub: igvw'
+      url: https://github.com/igvw
+      fontawesome_icon: github
+    - placeholder: LinkedIn
+      url: https://www.linkedin.com/in/ignazio-ferreira
+      fontawesome_icon: linkedin
+  sections:
+    Profil:
+      - Ingeniør med BSc Honours i informatikk og erfaring frå drift av dataplattformer i
+        produksjon, automatisering av driftskontrollar og utvikling av datapipelines og
+        analyseprosessar. Praktisk erfaring med Python, SQL, Linux, Kubernetes/OpenShift og Google
+        Cloud. Busett på Fitjar.
+    Teknisk kompetanse:
+      - label: Programmering
+        details: Python, SQL, Bash, Go, Scala, Java
+      - label: Plattformer og drift
+        details: Linux, Docker, Kubernetes, OpenShift, Helm, Git, Grafana
+      - label: Datateknikk
+        details: Apache Airflow, Apache Spark, BigQuery, ETL/ELT, AWS S3
+      - label: Analyse og maskinlæring
+        details: Pandas, GeoPandas, scikit-learn, Plotly, datavisualisering, prognosar, geografisk
+          analyse
+    Arbeidserfaring:
+      - name: Spatialedge
+        date: 09/2022 - 03/2026
+        location: Stellenbosch, Sør-Afrika
+        summary: Oppdrag innan plattformdrift, geografisk modellering
+          og analyse av straumsal.
+      - name: Data Scientist - Prepaid Electricity Analytics
+        date: 10/2025 - 03/2026
+        highlights:
+          - Utvikla rapporteringsdatasett og analyseprosessar for transaksjonar og sal av
+            førehandsbetalt straum i Google Cloud.
+          - Utvikla dashbord i Looker Studio og tidsstyrte køyring av notatbøker med tenestekontoar
+            i Vertex AI for dagleg rapportering.
+          - Effektiviserte historiske SQL-innlastingar ved å erstatte handsaming dag for dag med eit
+            meir effektivt spørjingsmønster; konfigurerte tidsstyrte arbeidsflytar og varsel.
+      - name: Geo-informatics Data Scientist
+        date: 08/2025 - 09/2025
+        highlights:
+          - Analyserte geografiske og tidsmessige trafikkmønster med Python og GeoPandas og
+            utarbeidde visualiseringar av vegnettet, områdespesifikke frekvensdiagram og prognosar.
+          - Utvikla satsvis handsaming av store geografiske datamengder på ein virtuell maskin med
+            avgrensa minne.
+          - Samanlikna resultata med ein alternativ analysemetode basert på eit separat datasett.
+      - name: DevOps Engineer
+        date: 09/2022 - 07/2025
+        summary: Arbeidde med produksjonsdrift på ei lokal Cloudera/Hadoop-klynge i petabyteskala
+          for ein telekomleverandør.
+        highlights:
+          - Sette opp og heldt ved like 16 Apache Airflow-instansar på OpenShift (Kubernetes) med
+            Helm, på tvers av team, miljø og oppsett for høg tilgjengelegheit.
+          - Utvikla programvare for å overvake og koordinere planlagd dataarkivering til AWS S3 og
+            sletting frå Hadoop-miljø.
+          - Automatiserte daglege driftskontrollar og reduserte gjentakande manuelt arbeid for
+            ingeniørane.
+          - Undersøkte Apache Spark-feil og problem med kolonnetypar som påverka datahandsaminga.
+          - Deltok i vaktordningar på kveldar og i helger med vedlikehald, oppdateringar og
+            feilsøking i produksjon.
+    Utdanning:
+      - name: Norskkurs, B1-nivå
+        date: 2026 - d.d.
+        summary: Deltek på kurs ved Voksenopplæring, Stord.
+      - name: Masterstudiar i informatikk (grad ikkje fullført)
+        date: 2020 - 2022
+        summary: Stellenbosch University. Forska på nevrale nettverksensemble og konseptdrift;
+          utvikla forskingsprogramvare i Scala og Python og gjekk gjennom relevant litteratur.
+      - name: BSc Honours, informatikk
+        date: 2019
+        summary: Stellenbosch University. Fordjuping i maskinlæring, statistisk mønstergjenkjenning
+          og funksjonell programmering.
+        highlights:
+          - 'Oppgåve: Shape Interpolation via Wasserstein Barycentric Means'
+      - name: BSc, informatikk
+        date: Fullført 2018
+        summary: Stellenbosch University. Emne innan matematikk, datastrukturar og algoritmar,
+          matematisk statistikk, fysikk og maskinsyn.
+    Tidlegare erfaring:
+      - name: Servitør / bartender / runner | ASAP Staff
+        date: 01/2016 - 12/2016
+        summary: Bidrog med servering og logistikk ved bryllaup, konsertar og idrettsarrangement.
+      - name: Studentassistent | Stellenbosch University
+        date: 02/2015 - 06/2015
+        summary: Rettleia førsteårsstudentar og hjelpte til med øvingar, prosjekt og vurderingar.
+      - name: Praktikant i programvareutvikling | Vastech
+        date: 12/2014 - 01/2015
+        summary: Utvikla eit verktøy i Go for å kontrollere bakoverkompatibilitet i Googles Protocol
+          Buffers.
+    Språk:
+      - label: Engelsk
+        details: Morsmål
+      - label: Afrikaans
+        details: Morsmål
+      - label: Norsk
+        details: Lærer norsk; deltek på kurs på B1-nivå.
+    Interesser:
+      - Heimeserver med Debian, Raspberry Pi-prosjekt, løping, terrengsykling og klassisk gitar.
+design:
+  theme: engineeringclassic
+  page:
+    size: a4
+locale:
+  language: norwegian_nynorsk

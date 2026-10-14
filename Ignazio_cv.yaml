@@ -3,139 +3,108 @@ cv:
   headline: Data Platform Engineer
   location: Fitjar, Norway
   email: jobb@ignaz.io
-  phone: "+4745572881"
+  phone: '+4745572881'
   website: https://ignaz.io
-  social_networks:
-    - network: GitHub
-      username: igvw
-    - network: LinkedIn
-      username: ignazio-ferreira # replace if needed
-
+  custom_connections:
+    - placeholder: 'GitHub: igvw'
+      url: https://github.com/igvw
+      fontawesome_icon: github
+    - placeholder: LinkedIn
+      url: https://www.linkedin.com/in/ignazio-ferreira
+      fontawesome_icon: linkedin
   sections:
-    profile:
-      - Data professional with experience in data engineering, platform operations, applied analytics, and geospatial modelling.
-    experience:
-      - company: Spatialedge
-        position: Data Scientist - Prepaid Electricity Analytics
-        date: 10/2025 - 03/2026
-        location: Stellenbosch
-        summary: Worked on data and analytics workflows for a prepaid electricity vendor, with a focus on reporting, forecasting, and improving the delivery of production use cases.
-        highlights:
-          - Contributed across the full lifecycle from data preparation and validation to modelling, reporting, and deployment support in a Google Cloud environment.
-          - Built analytics workflows and reporting datasets for prepaid electricity transaction and sales data.
-          - Developed Looker Studio dashboards and scheduled service-account notebooks in Vertex AI to support daily business reporting.
-          - Redesigned historical backfills for complex SQL preparation layers, replacing slow day-by-day processing with a more efficient query pattern.
-          - Modernised the analytics delivery stack between prepared and reporting layers, including forecasting approaches, notebook scheduling, DAG configuration, alerting, and developer automation.
-
-      - company: Spatialedge
-        position: Geo-informatics Data Scientist
-        date: 08/2025 - 09/2025
-        location: Stellenbosch
-        summary: Worked on a two-month geo-informatics project modelling traffic congestion trends using Python-based GIS and data science tooling.
-        highlights:
-          - Modelled traffic congestion trends using geospatial and temporal data.
-          - Performed spatial analysis and feature engineering with GeoPandas and related Python libraries, producing geospatial analytics outputs including road-network visualisations, area-specific frequency plots, and forecasts to identify future trends.
-          - Developed batched processing strategies for data preparation and analytics that allowed large spatial workloads to run on a virtual machine with limited memory.
-          - Cross correlate results with a different strategy using different data.
-          - Wrote scripts to standardise and simplify environment setup for the project.
-
-      - company: Spatialedge
-        position: Data / DevOps Engineer
-        date: 09/2022 - 07/2025
-        location: Stellenbosch
-        summary: Supported platform operations and data pipelines on a petabyte-scale on-premise Cloudera/Hadoop cluster for the South African subsidiary of a multinational telecommunications provider.
-        highlights:
-          - Deployed and maintained 16 Apache Airflow instances across multiple teams, environments, and high availability setups on OpenShift (Kubernetes) using Helm.
-          - Built software to monitor and facilitate the scheduled archival and removal of hundreds of terabytes of data from development and production Hadoop environments to AWS S3.
-          - Developed and maintained tools that automated daily platform health checks and reduced repetitive manual work for engineers.
-          - Participated in after-hours and weekend support rotations, including maintenance, patching, and production troubleshooting.
-
-    earlier_experience:
-      - company: ASAP Staff
-        position: Waiter / Bartender / Runner
-        date: 01/2016 - 12/2016
-        location: Stellenbosch
-        highlights:
-          - Worked at weddings, concerts, and sporting events across the Cape Town area.
-          - Assisted with event logistics, coordination, and operations.
-
-      - company: Stellenbosch University
-        position: Student Tutor
-        date: 02/2015 - 06/2015
-        location: Stellenbosch
-        highlights:
-          - Tutored first-year students in weekly sessions.
-          - Assisted with tutorials, projects, and assessments.
-
-      - company: Vastech
-        position: Software Engineering Intern
-        date: 12/2014 - 01/2015
-        location: Stellenbosch
-        highlights:
-          - Developed a backward-compatibility verification tool for Google's Protocol Buffers using Go.
-
-    education:
-      - institution: Voksenopplæring, Stord
-        area: Norwegian
-        degree: B1 language course
-        date: 2026 - Present
-        summary: Currently taking a Norwegian language course at B1 level.
-
-      - institution: Stellenbosch University
-        area: Computer Science
-        degree: BSc Honours
-        date: 2019
-        summary: Advanced study in machine learning, statistical pattern recognition, computational intelligence, and functional programming.
-        highlights:
-          - "Thesis: Shape Interpolation via Wasserstein Barycentric Means"
-
-      - institution: Stellenbosch University
-        area: Computer Science
-        degree: BSc
-        date: 2014 - 2018
-        highlights:
-          - Coursework included pure mathematics, data structures and algorithms, mathematical statistics, physics, and computer vision.
-
-      - institution: Stellenbosch University
-        area: Computer Science
-        degree: MSc (discontinued)
-        date: 2020 - 2022
-        summary: Research focus on neural network ensembles and concept drift. Built an efficient research codebase in Scala and Python and conducted an extensive literature review.
-        highlights:
-          - "Thesis topic: Neural Network Ensembles and Concept Drift"
-
-    skills:
-      - label: Languages
+    Profile:
+      - Engineer with a BSc Honours in Computer Science and experience operating production data
+        platforms, automating operational checks, and developing data pipelines and analytics
+        workflows. Practical background in Python, SQL, Linux, Kubernetes/OpenShift, and Google
+        Cloud. Based in Fitjar.
+    Technical skills:
+      - label: Programming
         details: Python, SQL, Bash, Go, Scala, Java
-      - label: Data / ML
-        details: Pandas, GeoPandas, scikit-learn, forecasting, geospatial analysis
-      - label: Data Engineering
-        details: Apache Spark, Apache Airflow, BigQuery, ETL/ELT, S3, data pipelines
-      - label: Platform / DevOps
+      - label: Platforms & operations
         details: Linux, Docker, Kubernetes, OpenShift, Helm, Git, Grafana
-
-    languages:
+      - label: Data engineering
+        details: Apache Airflow, Apache Spark, BigQuery, ETL/ELT, AWS S3
+      - label: Analytics & ML
+        details: Pandas, GeoPandas, scikit-learn, Plotly, data visualisation, forecasting,
+          geospatial analysis
+    Professional experience:
+      - name: Spatialedge
+        date: 09/2022 - 03/2026
+        location: Stellenbosch, South Africa
+        summary: Assignments in platform operations, geospatial
+          modelling, and electricity analytics.
+      - name: Data Scientist - Prepaid Electricity Analytics
+        date: 10/2025 - 03/2026
+        highlights:
+          - Built reporting datasets and analytics workflows for prepaid electricity transactions
+            and sales in Google Cloud.
+          - Developed Looker Studio dashboards and scheduled notebooks using service accounts in
+            Vertex AI for daily reporting.
+          - Improved historical SQL backfills by replacing day-by-day processing with a more
+            efficient query pattern; configured scheduled workflows and alerts.
+      - name: Geo-informatics Data Scientist
+        date: 08/2025 - 09/2025
+        highlights:
+          - Analysed spatial and temporal traffic patterns with Python and GeoPandas, producing
+            road-network visualisations, area-specific frequency plots, and forecasts.
+          - Developed batch processing to run large spatial workloads on a memory-constrained
+            virtual machine.
+          - Compared results with an alternative analytical method using a separate dataset.
+      - name: DevOps Engineer
+        date: 09/2022 - 07/2025
+        summary: Supported production operations on a petabyte-scale, on-premises Cloudera/Hadoop
+          cluster for a telecommunications provider.
+        highlights:
+          - Deployed and maintained 16 Apache Airflow instances on OpenShift (Kubernetes) using
+            Helm, across teams, environments, and high-availability setups.
+          - Built software to monitor and coordinate scheduled data archival to AWS S3 and removal
+            from Hadoop environments.
+          - Automated daily platform health checks, reducing repetitive manual work for engineers.
+          - Investigated Apache Spark failures and column-type issues affecting data processing.
+          - Participated in after-hours and weekend support rotations for maintenance, patching, and
+            production troubleshooting.
+    Education:
+      - name: Norwegian language course, B1 level
+        date: 2026 - present
+        summary: Currently attending Voksenopplæring, Stord.
+      - name: Master's studies in Computer Science (degree not completed)
+        date: 2020 - 2022
+        summary: Stellenbosch University. Research on neural network ensembles and concept drift;
+          developed research software in Scala and Python and reviewed relevant literature.
+      - name: BSc Honours, Computer Science
+        date: 2019
+        summary: Stellenbosch University. Advanced study in machine learning, statistical pattern
+          recognition, and functional programming.
+        highlights:
+          - 'Thesis: Shape Interpolation via Wasserstein Barycentric Means'
+      - name: BSc, Computer Science
+        date: Completed 2018
+        summary: Stellenbosch University. Coursework included mathematics, data structures and
+          algorithms, mathematical statistics, physics, and computer vision.
+    Earlier experience:
+      - name: Waiter / Bartender / Runner | ASAP Staff
+        date: 01/2016 - 12/2016
+        summary: Supported event service and logistics at weddings, concerts, and sporting events.
+      - name: Student Tutor | Stellenbosch University
+        date: 02/2015 - 06/2015
+        summary: Tutored first-year students and assisted with tutorials, projects, and assessments.
+      - name: Software Engineering Intern | Vastech
+        date: 12/2014 - 01/2015
+        summary: Developed a backward-compatibility verification tool for Google's Protocol Buffers
+          using Go.
+    Languages:
       - label: English
         details: Native
       - label: Afrikaans
         details: Native
       - label: Norwegian
-        details: Elementary
-
-    interests:
-      - bullet: Running
-      - bullet: Mountain biking
-      - bullet: Home server projects (VPS, Raspberry Pi, Headless Debian)
-      - bullet: Beer brewing
-      - bullet: Classical guitar
-
-    portfolio:
-      - name: ignaz.io/data
-        summary: Portfolio of data projects and visualisations.
-
-    additional_information:
-      - bullet: Last name was legally changed from Ferreira to Van Wyk in 2023.
-      - bullet: References available on request.
-
+        details: Currently studying Norwegian; B1 course in progress.
+    Interests:
+      - Debian home server, Raspberry Pi projects, running, mountain biking, and classical guitar.
 design:
   theme: engineeringclassic
+  page:
+    size: a4
+locale:
+  language: english
